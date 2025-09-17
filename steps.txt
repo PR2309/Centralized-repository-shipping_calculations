@@ -28,3 +28,14 @@ GitHub Docs
     gh pr create --base main --head YOUR_USERNAME:feature/your-feature-name \
     --title "Short title" --body "Detailed description of change"
     Or click Pull requests → New pull request on the GitHub website. 
+
+7. no default repo has been set, cype:
+    git remote -v
+
+8. Now tell gh which repo to use by default:
+        gh repo set-default origin
+    If you want to contribute to the IBM repo directly:
+        gh repo set-default upstream
+
+9. Retry pull request command now:
+    redo step 6
