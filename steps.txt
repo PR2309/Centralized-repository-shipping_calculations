@@ -1,0 +1,8 @@
+# create a feature branch
+git checkout -b feature/your-feature-name
+
+# edit files (use the editor UI or terminal editors)
+# stage, commit, push
+git add .
+git commit -m "Describe your changes"
+git push --set-upstream origin feature/your-feature-name
